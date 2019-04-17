@@ -21,10 +21,18 @@ nav ul{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction:column;
+  list-style-type: none;
+  align-items: center
+ 
+}
+li a{
+  text-decoration: none ;
+  margin: 0 20px;
 }
 
-
+.active{
+  font-weight:bold
+}
 .delete-button{
   color: red;
   cursor: pointer;
